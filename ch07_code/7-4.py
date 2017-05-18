@@ -1,0 +1,1 @@
+bpy.ops.import_scene.obj(filepath=myAbsoluteFilepath)

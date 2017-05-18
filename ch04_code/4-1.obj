@@ -1,0 +1,38 @@
+# Use hashes to leave comments in .obj files
+# The 'o' tag is used to name objects
+# all data following an 'o' tag is considered
+# to have this name until another name is entered
+o MySimpleFace
+
+# Vertices are entered with the 'v' tag as
+# space-delimited (x, y, z) tuples
+v -1.00 0.00 1.00
+v 1.00 0.00 1.00
+v -1.00 0.00 -1.00
+v 1.00 0.00 -1.00
+
+# Texture coordinate are entered with the 'vt' tag as
+# space-delimited (u, v) tuples, between 0 and 1
+vt 0.00 1.00
+vt 1.00 1.00
+vt 0.00 0.00
+vt 1.00 0.00
+
+# Normal vectors are entered with the 'vn' tag as
+# space-delimited (x, y, z) tuples, can be normal vectors if desired
+vn 0.0000 1.0000 0.0000
+
+# Indices are entered with the 'f' (for face) tag as
+# space-delimited triplets of v, vt, and vn indices as
+# f   v_i/vt_i/vn_i   v_j/vt_j/vn_j   v_k/vt_k/vn_k
+# Faces can have any number (three or more) coplanar points
+f 2/2/1 3/3/1 1/1/1
+f 2/2/1 4/4/1 3/3/1
+
+# Alternatively, the faces section for this face can be
+# written as a single coplanar quadrilateral:
+f 1/1/1 2/2/1 4/4/1 3/3/1 
+
+# Alternatively, the texture coordinates can be
+# excluded with double slashes
+f 1//1 2//1 4//1 3//1 

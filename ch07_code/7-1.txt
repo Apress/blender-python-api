@@ -1,0 +1,80 @@
+### Single Scripts     ###
+### e.g. Node Wrangler ###
+node_wrangler.py
+
+
+### Single-level or Flat Directories ###
+### e.g. Mesh Insert                 ###
+mesh_inset/
+|-- geom.py
+|-- __init__.py
+|-- model.py
+|-- offset.py
+`-- triquad.py
+
+
+### Multi-level Directories ###
+### e.g. Rigify             ###
+rigify
+|-- CREDITS
+|-- generate.py
+|-- __init__.py
+|-- metarig_menu.py
+|-- metarigs
+|   |-- human.py
+|   |-- __init__.py
+|   `-- pitchipoy_human.py
+|-- README
+|-- rig_lists.py
+|-- rigs
+|   |-- basic
+|   |   |-- copy_chain.py
+|   |   |-- copy.py
+|   |   `-- __init__.py
+|   |-- biped
+|   |   |-- arm
+|   |   |   |-- deform.py
+|   |   |   |-- fk.py
+|   |   |   |-- ik.py
+|   |   |   `-- __init__.py
+|   |   |-- __init__.py
+|   |   |-- leg
+|   |   |   |-- deform.py
+|   |   |   |-- fk.py
+|   |   |   |-- ik.py
+|   |   |   `-- __init__.py
+|   |   `-- limb_common.py
+|   |-- finger.py
+|   |-- __init__.py
+|   |-- misc
+|   |   |-- delta.py
+|   |   `-- __init__.py
+|   |-- neck_short.py
+|   |-- palm.py
+|   |-- pitchipoy
+|   |   |-- __init__.py
+|   |   |-- limbs
+|   |   |   |-- arm.py
+|   |   |   |-- __init__.py
+|   |   |   |-- leg.py
+|   |   |   |-- limb_utils.py
+|   |   |   |-- paw.py
+|   |   |   |-- super_arm.py
+|   |   |   |-- super_front_paw.py
+|   |   |   |-- super_leg.py
+|   |   |   |-- super_limb.py
+|   |   |   |-- super_rear_paw.py
+|   |   |   `-- ui.py
+|   |   |-- simple_tentacle.py
+|   |   |-- super_copy.py
+|   |   |-- super_face.py
+|   |   |-- super_finger.py
+|   |   |-- super_palm.py
+|   |   |-- super_torso_turbo.py
+|   |   |-- super_widgets.py
+|   |   `-- tentacle.py
+|   `-- spine.py
+|-- rig_ui_pitchipoy_template.py
+|-- rig_ui_template.py
+|-- ui.py
+`-- utils.py

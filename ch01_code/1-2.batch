@@ -1,0 +1,13 @@
+# Assuming you are starting from C:\Users\%USERNAME%
+cd Desktop\blender-2.78c-windows64
+blender
+
+# Navigating from anywhere on the Windows 
+# filesystem to Blender on the Desktop
+cd C:\Users\%USERNAME%\Desktop\blender-2.78c-windows64
+blender
+
+# If an existing Blender install causes
+# the wrong version to open, use blender.exe
+cd C:\Users\%USERNAME%\Desktop\blender-2.78c-windows64
+blender.exe 
